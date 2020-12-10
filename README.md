@@ -22,7 +22,7 @@ Test v0.022：头图来源：Pixiv：72725286
 服务端：
 
 ```bash
-wget https://raw.githubusercontent.com/CokeMine/ServerStatus-Hotaru/master/status.sh
+wget https://raw.githubusercontent.com/mrlong520/ServerStatus-Hotaru/master/status.sh
 bash status.sh s
 ```
 
@@ -57,7 +57,7 @@ bash status.sh c
 
 ```
 apt install wget unzip curl make build-essential
-wget https://github.com/CokeMine/ServerStatus-Hotaru/archive/master.zip
+wget https://github.com/mrlong520/ServerStatus-Hotaru/archive/master.zip
 unzip master.zip
 cd /root/ServerStatus-Hotaru-master/server
 make #手动编译生成二进制文件
