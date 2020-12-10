@@ -349,8 +349,8 @@ Set_password() {
   else
     echo -e "请输入 ServerStatus 服务端中对应配置的密码[password]（字母/数字）"
   fi
-  read -erp "(默认: doub.io):" password_s
-  [[ -z "$password_s" ]] && password_s="doub.io"
+  read -erp "(默认: mrlong.org):" password_s
+  [[ -z "$password_s" ]] && password_s="mrlong.org"
   echo && echo "	================================================"
   echo -e "	密码[password]: ${Red_background_prefix} ${password_s} ${Font_color_suffix}"
   echo "	================================================" && echo
